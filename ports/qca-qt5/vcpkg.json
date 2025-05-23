@@ -1,6 +1,7 @@
 {
   "name": "qca-qt5",
   "version": "2.3.7",
+  "port-version": 1,
   "description": "Qt Cryptographic Architecture (QCA).",
   "homepage": "https://invent.kde.org/libraries/qca",
   "dependencies": [
@@ -18,7 +19,8 @@
     }
   ],
   "default-features": [
-    "botan"
+    "botan",
+    "ossl"
   ],
   "features": {
     "botan": {
